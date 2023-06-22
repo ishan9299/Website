@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fc020f06d1.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div class="sidebar">
+            <div class="sidebar-contents">
+                <h1>Ishan Agarwal</h1>
+                <div class="sidebar-links">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ishanagarwal9/">
+                                <i class="fa-brands fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ishan9299">
+                                <i class="fa-brands fa-github fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar-button">
+                    <a href=".\public\assets\Ishan Agarwal Resume.pdf" download="Resume.pdf">
+                        <button class="sidebar-button-download">Download Resume</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-body">
+                <div class="content-header">
+                    <h1>Projects</h1>
+                </div>
+                <!-- {{{ -->
+                <a class="content-card-link" href="https://github.com/ishan9299/editor-opengl">
+                    <div class="content-card">
+                        <div class="content-card-screenshot grid-row-span-2">
+                            <img src=".\public\assets\Editor.png" width="160" height="90">
+                        </div>
+                        <div class="content-card-header">
+                            <h4>Text Editor</h4>
+                            <p>Jan 2022 - Jun 2022</p>
+                        </div>
+                        <div class="content-card-description">
+                            <p>
+                                This is a text editor written in scratch in C using the Win32 API. It has
+                                a custom text rendering engine which generates a texture atlas of a font and uses
+                                batch rendering to render the text.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="content-card-link" href="https://github.com/ishan9299/React-Form">
+                    <div class="content-card">
+                        <div class="content-card-screenshot grid-row-span-2">
+                            <img src=".\public\assets\react-form.png" width="160" height="90">
+                        </div>
+                        <div class="content-card-header">
+                            <h4>React Form</h4>
+                            <p>May 2023 - May 2023</p>
+                        </div>
+                        <div class="content-card-description">
+                            <p>
+                                This is an online submission form built in React using the react-hooks-form library.
+                                The form checks if mandatory fields are filled or not. If not it displays an error message.
+                                It also checks if users entered a valid Aadhaar number or PAN card number.
+                                It stores the data the users submits in a mongodb database. For the backend it uses the mongoose library.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="content-card-link" href="https://github.com/ishan9299/Tasks">
+                    <div class="content-card">
+                        <div class="content-card-screenshot grid-row-span-2">
+                            <img src=".\public\assets\Task-App.png" width="160" height="90">
+                        </div>
+                        <div class="content-card-header">
+                            <h4>Tasks</h4>
+                            <p>May 2023 - May 2023</p>
+                        </div>
+                        <div class="content-card-description">
+                            <p>
+                                This is a web app written in Go. It uses MySQL for the backend database.
+                                It allows users to add, edit and delete the tasks they added.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="content-card-link" href="https://github.com/ishan9299/nvim-solarized-lua">
+                    <div class="content-card">
+                        <div class="content-card-screenshot grid-row-span-2">
+                            <img src=".\public\assets\neovim-solarized.png" width="160" height="90">
+                        </div>
+                        <div class="content-card-header">
+                            <h4>Neovim Solarized Colorschemes</h4>
+                            <p>March 2021 - Present</p>
+                        </div>
+                        <div class="content-card-description">
+                            <p>
+                                This is a port of Solarized colorscheme written in vimscript to lua for neovim.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="content-card-link" href="https://github.com/ishan9299/modus-theme-vim">
+                    <div class="content-card">
+                        <div class="content-card-screenshot grid-row-span-2">
+                            <img src=".\public\assets\modus-neovim.png" width="160" height="90">
+                        </div>
+                        <div class="content-card-header">
+                            <h4>Neovim Modus Colorschemes</h4>
+                            <p>Aug 2020 - Present</p>
+                        </div>
+                        <div class="content-card-description">
+                            <p>
+                                This is a port of a colorscheme of emacs to neovim in lua.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <!-- }}} -->
+
+            </div>
+        </div>
+
+    </body>
+</html>
