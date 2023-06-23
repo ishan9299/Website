@@ -113,7 +113,7 @@ body {
 .content-card {
     display: grid;
     grid-template-columns: 320px 480px;
-    grid-template-rows: 80px 160px;
+    grid-template-rows: 80px minmax(160px, auto);
     gap: 0px;
     margin: 5px;
     padding: 10px;
