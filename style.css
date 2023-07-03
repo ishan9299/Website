@@ -183,7 +183,7 @@ h3 {
 .email-input-fields {
   display: grid;
   gap: 1rem;
-  /* grid-template-columns: 1fr 1fr; */
+  grid-template-columns: minmax(240px, 720px);
   grid-template-rows: auto;
 }
 
