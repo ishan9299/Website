@@ -183,21 +183,14 @@ h3 {
 .email-input-fields {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
   grid-template-rows: auto;
 }
 
 input {
   border-color: var(--clr-ascent-200);
   border-width: thin;
-  width: 100%;
-}
-
-input[type="text"] {
-  padding: 1rem;
-}
-
-input[type="email"] {
+  max-width: 100%;
   padding: 1rem;
 }
 
@@ -212,7 +205,7 @@ input[type="submit"] {
 }
 
 textarea {
-  padding: 10px;
+  padding: 1rem;
   border-color: var(--clr-ascent-200);
   border-width: thin;
 }
